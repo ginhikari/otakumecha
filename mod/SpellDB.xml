@@ -1,0 +1,31 @@
+<spellDB>
+ <Spell name="Love Laser"  type="beam" templateID="30" archored="1" icon="" downtime="12"/>
+   <requirements mp="10" savvyBonus="0.1" mincost="3"/>
+   <effect type="damage" conflagration="3" voltaic="3" righteous="3"  piercing="2"/>
+   <effect type="charm" turns="999999"/>
+   <description text="That makes a multiple penetration."/>
+ </spell>
+ <Spell name="Summon Invincible Scrap Metal Shazbot 3">
+   <requirements mp="20" savvyBonus="0.2" mincost="10"/>
+   <effect type="summon" monsterType="Daimyo Samurai Robot"/>
+   <description text="I expected a giant iron man, dammit."/>
+ </spell>
+ <spell name="Drill of Romance" type="adjacent" downtime="30">
+     <requirements mp="10" savvyBonus="0.25" mincost="7"/>
+     <effect type="damage" piercing="6" piercingF="0.1"/>
+     <effect type="damage" voltaic="6" voltaicF="0.1"/>
+     <effect type="bleed"/> <!--OP or not?-->
+     <buff useTimer="1" time="12" allowstacking="1" stacksize="1" self="1" bad="0"/>
+     <primarybuff id="2" amount="-5"/> <!--Nimbleness-->
+     <primarybuff id ="4" amount="5"/> <!--Stubbonness-->
+     <primarybuff id="1" amount="-5"/> <!--Sagacity-->
+     <primarybuff id="5" amount="-5"/> <!--Savvy-->
+     <primarybuff id="3" amount="5"/> <!--Caddishness-->
+   </buff>
+   <description text="The closest drill a man can get."/>  
+</Spell>
+ <Spell name="Self Destruction Sequence>
+   <requirement downtime="80"/>
+   <trigger/>
+</spellDB>
+  

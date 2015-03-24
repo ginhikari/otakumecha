@@ -1,0 +1,9 @@
+<dredmormod>
+    <revision text="1.0"/>
+    <author text="Gin with ideas from Cl"/>
+    <name text="Otakuism 'Mecha'"/>
+    <description text="For all mecha-otaku"/>
+    <info totalconversion="0"/>
+	<require expansion="1"/>
+	<require expansion="2"/>
+ </dredmormod>

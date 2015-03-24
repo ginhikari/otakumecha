@@ -1,0 +1,46 @@
+<skillDB>
+ <skill name="Otakuism 'Mecha'" id="1561" type="warrior" description="One mecha loving otaku, save the Earth, raid the dungeon.">
+   <art icon="sprite\skills\mecha\skepticism64.png"/>
+   <loadout type="armour" subtype="Hachimaki" always="1" amount="1"/>
+   </skill>
+   <skillDB>
+ <ability startSkill="1" name="New Type" icon="\sprite\skills\mecha\newtype64.png" skill="200" >
+    <description text="The technician told me it is already 80% done, hell it doesn't even have legs nor a red horn."/>
+    </ability>
+<ability name="New Type" icon="" skill="200" level="0">
+    <description text="The technician told me it is already 80% done, hell it doesn't even have legs nor a red horn."/>
+	<primarybuff id="2" amount="5"/> <!-- Nimbleness -->
+	<secondarybuff id="9" amount="5"/> <!--Enemy dodge reduction -->
+	<resistbuff voltaic="1"/>
+    </ability>
+<ability name="Love Laser" icon="" skill="200" level="0">
+    <resistbuff voltaic="1"/>
+    <description text="That makes a multiple penetration."/>
+    </ability>
+ <ability name="Model Enthusiaist" icon="" skill="200" level="2">
+    <description text="Kerokerokerokerokero."/>
+	<primarybuff id="" amount=""/> <!-- Nimbleness -->
+	<secondarybuff id="16" amount="1"/> <!-- Trap Affinity -->
+	<secondarybuff id="19" amount="1"/> <!-- Smithing -->
+	<secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+	<secondarybuff id="23" amount="1"/> <!-- Wand Crafting -->
+	<secondarybuff id="18" amount="-1"/> <!-- Sight Radius -->
+	<resistbuff voltaic="1"/>
+    </ability>  
+<ability name="Sight of the British Prince" icon="" skill="200" level="3">
+    <description text="I expected a giant iron man, dammit"/>
+	<resistbuff voltaic="1"/>
+    </ability>
+<ability name="Drill of Romance" icon="" skill="200" level="4">
+    <description text="Beyond the limit of the ground and sky."/>
+	<resistbuff voltaic="1"/>
+    </ability>
+<ability name="Self Destruction" icon="\sprite\skills\mecha\wreathofexplosion64.png" skill="200" level="5">
+    <description text=""/>
+	<resistbuff voltaic="1"/>
+    </ability>
+<ability name="AT-Field" icon="" skill="200" level="6">
+    <description text="AT or MT, your choice."/>
+	<resistbuff crushing="2" slashing="2" piercing="2" blasting="2" hyperborean="2" conflagratory="2" voltaic="3" toxic="2" righteous="2" necromantic="2" acidic="2" putrefying="2" transmutative="2" aethereal="2" asphyxiative="2" existential="2"/>
+    </ability>
+	
